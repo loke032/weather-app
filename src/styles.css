@@ -109,6 +109,7 @@ h1, h3 {
     display: flex;
 
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     flex: 1;
 }
@@ -153,6 +154,12 @@ input::placeholder {
     color: rgb(0, 0, 0, 0);
     width: 0px;
     height: 0px;
+}
+
+span {
+    font-size: 20px;
+    color: var(--header-text);
+    text-shadow: var(--text-shadow);
 }
 
 
